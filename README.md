@@ -9,16 +9,49 @@
 
 Always looking for new **experiences** and challenges!
 
-[![Dev.to Badge](https://img.shields.io/badge/dev.to-2D2D2D?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/rickferrdev)
-[![LinkedIn Badge](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rickferr)
+[![tabnews](https://img.shields.io/badge/tabnews-000000?style=for-the-badge&logo=tabnews&logoColor=white)](https://www.tabnews.com.br/rickferrdev)
+[![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rickferr)
 
 ---
 
-Backend developer with experience in API architecture and system integrations.  
-Focused on robust software engineering, security, testing, documentation, and standardization.  
+Backend developer with experience in API architecture and system integrations.
+Focused on robust software engineering, security, testing, documentation, and standardization.
 Dedicated to continuous learning, critical requirements analysis, and multidisciplinary collaboration.
 
 </div>
+
+```go
+type Languages string
+type Tools string
+type Architecture string
+
+type Rickferr struct {
+	Name         string
+	Age          uint
+	Code         []Languages
+	Tools        []Tools
+	Architecture []Architecture
+}
+
+rickferr := Rickferr{
+	Name:  "Henrick Ferreira Saraiva",
+	Age:   18,
+	Code:  []Languages{"JS/TS", "golang", "rust", "python"},
+	Tools: []Tools{"prettier", "eslint", "biome"},
+	Architecture: []Architecture{
+		"RESTful APIs",
+		"Clean Architecture",
+		"Microservices",
+		"Event-Driven Architecture",
+		"Hexagonal Architecture",
+	},
+}
+
+// This will cause a "panic: runtime error: index out of range [4] with length 4"
+favoriteLanguage := rickferr.Code[len(rickferr.Code)]
+fmt.Println("My favorite language is:", favoriteLanguage)
+fmt.Printf("%+v\n", rickferr)
+```
 
 ---
 
@@ -51,7 +84,7 @@ Dedicated to continuous learning, critical requirements analysis, and multidisci
 
 <div align="center">
 
-I'm currently studying **System Analysis and Development**.  
+I'm currently studying **System Analysis and Development**.
 My goal is to explore different areas of technology to become a well-rounded developer.
 
 I occasionally share tech-related ideas and articles on [LinkedIn](https://www.linkedin.com/in/rickferr) and [Dev.to](https://dev.to/rickferrdev).
