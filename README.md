@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="img/banner.jpg" alt="Banner" width="100%" height="250px" style="object-fit:cover; border-radius:12px;">
+  <img src="img/banner.jpg" alt="Banner" width="90%" style="object-fit:cover; border-radius:12px;">
 </p>
 
 <div align="center">
